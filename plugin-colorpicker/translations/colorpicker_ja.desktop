@@ -1,5 +1,2 @@
-[Desktop Entry]
-Type=Service
-ServiceTypes=LXQtPanel/Plugin
-Name=カラーピッカー
-Comment=カーソルの下の色を取得します。ウェブ制作者向け
+Name[ja]=カラーピッカー
+Comment[ja]=
