@@ -264,7 +264,7 @@ void LXQtMainMenu::settingsChanged()
     mSearchEdit->setText(QString{});
     mFilterMenu = settings()->value(QStringLiteral("filterMenu"), true).toBool();
     mFilterShow = settings()->value(QStringLiteral("filterShow"), true).toBool();
-    mFilterClear = settings()->value(QStringLiteral("filterClear"), false).toBool();
+    mFilterClear = settings()->value(QStringLiteral("filterClear"), true).toBool();
     mFilterShowHideMenu = settings()->value(QStringLiteral("filterShowHideMenu"), true).toBool();
     if (mMenu)
     {

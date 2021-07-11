@@ -137,7 +137,7 @@ void LXQtMainMenuConfiguration::loadSettings()
     ui->filterShowMaxWidthSB->setValue(settings().value(QStringLiteral("filterShowMaxWidth"), 300).toInt());
     ui->filterShowHideMenuCB->setEnabled(filter_show);
     ui->filterShowHideMenuCB->setChecked(settings().value(QStringLiteral("filterShowHideMenu"), true).toBool());
-    ui->filterClearCB->setChecked(settings().value(QStringLiteral("filterClear"), false).toBool());
+    ui->filterClearCB->setChecked(settings().value(QStringLiteral("filterClear"), true).toBool());
     ui->filterClearCB->setEnabled(filter_menu || filter_show);
 }
 
