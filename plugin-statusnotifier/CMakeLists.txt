@@ -13,6 +13,7 @@ set(HEADERS
     statusnotifierwatcher.h
     statusnotifierwidget.h
     sniasync.h
+    statusnotifierproxy.h
 )
 
 set(SOURCES
@@ -24,6 +25,7 @@ set(SOURCES
     statusnotifierwatcher.cpp
     statusnotifierwidget.cpp
     sniasync.cpp
+    statusnotifierproxy.cpp
 )
 
 set(UIS

@@ -42,7 +42,7 @@ public:
     bool isSeparate() const override { return true; }
     void realign() override;
     QString themeId() const override { return QStringLiteral("StatusNotifier"); }
-    Flags flags() const override { return SingleInstance | HaveConfigDialog | NeedsHandle; }
+    Flags flags() const override { return HaveConfigDialog | NeedsHandle; }
     QWidget *widget() override { return m_widget; }
 
     QDialog *configureDialog() override;

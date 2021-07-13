@@ -35,7 +35,8 @@
 #include <LXQt/GridLayout>
 
 #include "statusnotifierbutton.h"
-#include "statusnotifierwatcher.h"
+
+class StatusNotifierProxy;
 
 class StatusNotifierWidget : public QWidget
 {
@@ -62,7 +63,7 @@ protected:
 
 private:
     ILXQtPanelPlugin *mPlugin;
-    StatusNotifierWatcher *mWatcher;
+    StatusNotifierProxy *mProxy;
 
     QTimer mHideTimer;
 
